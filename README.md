@@ -1,1 +1,3 @@
 # CryptoClustering
+
+In this challenge, I used Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. After normalizing the data, I found the optimal k-value following the elbow method. Using the k found from the plot, I clustered the cryptocurrencies with K-means using the original scaled data. I then performed principal component analysis to optimize the clusters, reducing the chances of overfitting, and making the clusters easier to identify. I found the best k-value using the PCA data, which happened to be the same as the original scaled data. With that k-value, I clustered the cryptocurrencies with K-means using the PCA data.
